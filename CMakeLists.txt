@@ -9,9 +9,9 @@ project(
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+# find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 add_executable(main src/main.cpp)
 
-target_link_libraries(main sfml-graphics sfml-window sfml-system)
+# target_link_libraries(main sfml-graphics sfml-window sfml-system)
 include_directories(${PROJECT_SOURCE_DIR}/include)
